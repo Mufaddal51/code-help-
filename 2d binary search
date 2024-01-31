@@ -30,7 +30,7 @@ bool binary (int arr[][4], int row, int col, int target)
 		}
 	  mid = s + (e - s) / 2;
 	}
-  return false;
+  return -1;
 
 }
 int main ()
